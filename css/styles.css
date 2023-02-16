@@ -41,6 +41,12 @@
     --FC-ABOUT-H1: var(--BGCOLOR);
     --FC-ABOUT-H2: rgba(102, 102, 102, 0.8);
 }
+
+::selection {
+    background-color: #cbfe00;
+    color: #000;
+}
+
 html {
     max-width: 100%;
     overflow-x: hidden;
@@ -240,6 +246,11 @@ body {
     color: var(--FC-ABOUT-H1);
 }
 
+.h1--about::selection {
+    background-color: var(--BGCOLOR);
+    color: var(--LIGHT-COLOR);
+}
+
 .h1--projects {
     color: var(--LIGHT-COLOR-ALT-1);
 }
@@ -265,6 +276,11 @@ body {
 
 .h2--about {
     color: var(--FC-ABOUT-H2);
+}
+
+.h2--about::selection {
+    background-color: var(--BGCOLOR);
+    color: var(--LIGHT-COLOR);
 }
 
 .h2--projects {
@@ -295,6 +311,11 @@ body {
 }
 .p--about {
     color: var(--BGCOLOR);
+}
+
+.p--about::selection {
+    background-color: var(--BGCOLOR);
+    color: var(--LIGHT-COLOR);
 }
 
 .a {
@@ -376,6 +397,20 @@ body {
 
 .text--uscore {
     text-decoration: underline;
+}
+
+.text--bold {
+    font-weight: bold;
+}
+
+.text--selection-green::selection {
+    background-color: var(--LIGHT-COLOR);
+    color: var(--BGCOLOR);
+}
+
+.text--selection-black::selection {
+    background-color: var(--BGCOLOR);
+    color: var(--LIGHT-COLOR);
 }
 
 /* IMAGES */
