@@ -551,8 +551,7 @@ body {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    /* height: 245px; */
-    height: 20vh;
+    height: 120px;
     transform: rotateY(180deg);
 }
 
