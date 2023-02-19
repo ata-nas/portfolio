@@ -605,8 +605,7 @@ body {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    /* height: 90px; */
-    height: 10vh;
+    height: 90px;
 }
 
 .divider--shape-divider-bottom-1675318255 .shape-fill {
